@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+
+}
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(image/resume.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-top: 2rem;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list a{
+    color: rgb(199, 44, 44);
+    text-decoration: solid;
+
+}
+.nav-menu li a{
+    transition: color 0.5s;
+    background-color: rgb(249, 251, 252);
+
+}
+.nav-menu a:hover{
+    color: rgb(32, 16, 16);
+    text-decoration: solid;
+    border-bottom: 1px solid white;
+}
+.text-centre{
+    text-align: center;
+
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:white;
+    font-weight: 70050%;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px;
+}
+
+#about{
+    height:auto;
+    width:100%;
+    position: relative;
+}
+
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgb(128, 116, 116);
+    
+
+}
+#skills-container{
+    height: auto;
+    width: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#skills-container div{
+    height: 200px;
+    width: 200px;
+
+}
+
+section{
+    width: 100%;
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color: rgb(243, 239, 234);
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+.skills-display{
+    width:70%;
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.skill-progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+}
+.skill-progress>div{    /* > is used for direct child*/
+    border-radius: 20px 0px 0px 20px;
+    
+
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+
+
+}
+.mb75px{
+    margin-bottom: 75px;
+}
+.mb-blue{
+    background-color: #2857a4;
+}
+.eighty5-percent{
+    width: 85%;
+    height: inherit;
+}
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+}
+.mb-red{
+    background-color: rgb(173, 8, 8);
+}
+    
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+
+}
+.ninety-percent{
+    width: 95%;
+    height: inherit;
+}
+.mb-violet{
+    background-color: black;
+}
+
+.mb-saffron{
+    background-color: orange;
+
+}
+
+.mb-pink{
+    background-color: rgb(182, 59, 79);
+}
+.seventy-percent{
+    width: 70%;
+    height: inherit;
+    border-radius: 1rem;
+}
+.sixety-percent{
+    width: 60%;
+    height: inherit;
+}
+.mb-green{
+    background-color: green;
+}
+.mb-dsa{
+    background-color: rgb(29, 5, 116);
+}
+.mb-fpga{
+    background-color: rgb(212, 8, 93);
+}
+.mb-nodejs{
+    background-color: cornflowerblue;
+}
+.mb-oop{
+    background-color: rgb(10, 131, 121);
+}
+/* overflow-wrap: break-word;  */
+/* pseudoclassses: 'active': it activates when u hover, 'visited' for link,  */
+
+#contact-container{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(violet, blue 170%);
+}
